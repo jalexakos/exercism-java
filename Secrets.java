@@ -1,3 +1,5 @@
+// from https://exercism.org/tracks/java/exercises/secrets
+
 public class Secrets {
     public static int shiftBack(int value, int amount) {
         return value >>> amount;
