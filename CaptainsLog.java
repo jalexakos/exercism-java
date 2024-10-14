@@ -1,3 +1,5 @@
+// from https://exercism.org/tracks/java/exercises/captains-log
+
 import java.util.Random;
 
 class CaptainsLog {
@@ -22,3 +24,5 @@ class CaptainsLog {
         return 41000 + 1000 * this.random.nextDouble();
     }
 }
+
+// Learning Randomness in Java. Pretty similar to JavaScript.
