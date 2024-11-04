@@ -1,3 +1,5 @@
+// from https://exercism.org/tracks/java/exercises/wizards-and-warriors
+
 class Fighter {
 
     boolean isVulnerable() {
@@ -50,3 +52,9 @@ class Wizard extends Fighter {
         return 3;
     }
 }
+
+// Learning inheritance in Java. There are definitely similarities to JavaScript.
+// The biggest difference is the use of the @Override annotation in Java, as well 
+// having to explicitly declare methods as public. In JavaScript, methods are public
+// by default. I had to do that with the toString method in the Warrior and Wizard 
+// classes, because the method is a built in method in Java.
